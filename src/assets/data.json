@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "title": "Buat Undangan Digital Mu dengan",
+    "subtitle": "Buat undangan pernikahan digital yang cantik, cepat, dan mudah disebarkan!",
+    "cta_text": "Buat Undangan Sekarang",
+    "cta_link": "https://wa.me/your-number",
+    "image": "/assets/hero-image.jpg",
+    "slogan": [
+      "Responsif",
+      "Efisien",
+      "Fleksibel",
+      "Eksklusif",
+      "Berbeda",
+      "Memorable"
+    ]
+    },
+  "why_choose_us": {
+    "title": "Kenapa Memilih Digi Moment?",
+    "benefits": [
+      {
+        "icon": "🚀",
+        "title": "Cepat & Mudah",
+        "description": "Buat undangan hanya dalam hitungan menit!"
+      },
+      {
+        "icon": "🎨",
+        "title": "Desain Elegan",
+        "description": "Pilihan template modern sesuai selera."
+      },
+      {
+        "icon": "💳",
+        "title": "Pembayaran Aman",
+        "description": "Tersedia berbagai metode pembayaran, termasuk QRIS."
+      },
+      {
+        "icon": "📱",
+        "title": "Mobile Friendly",
+        "description": "Undangan bisa diakses di semua perangkat."
+      }
+    ]
+  },
+  "templates": {
+    "title": "Pilih Template Undangan Digital",
+    "list": [
+      {
+        "id": 1,
+        "name": "Elegant Gold",
+        "image": "/assets/elegant-gold.jpg",
+        "description": "Tema elegan dengan nuansa emas.",
+        "price": "Rp150.000",
+        "features": ["Custom Domain", "QR Code Gift", "Support Multi-Bahasa"]
+      },
+      {
+        "id": 2,
+        "name": "Minimalist White",
+        "image": "/assets/minimalist-white.jpg",
+        "description": "Tema bersih dengan warna putih minimalis.",
+        "price": "Rp100.000",
+        "features": ["Gratis Hosting", "Form RSVP", "Custom Musik"]
+      },
+      {
+        "id": 3,
+        "name": "Romantic Floral",
+        "image": "/assets/romantic-floral.jpg",
+        "description": "Desain dengan elemen bunga untuk kesan romantis.",
+        "price": "Rp120.000",
+        "features": ["Animasi Interaktif", "Galeri Foto", "Countdown Timer"]
+      }
+    ]
+  },
+  "features": {
+    "title": "Fitur Utama Digi Moment",
+    "list": [
+      {
+        "icon": "🌎",
+        "title": "Multiple Language Support",
+        "description": "Undangan dapat dibuat dalam berbagai bahasa untuk tamu internasional."
+      },
+      {
+        "icon": "💰",
+        "title": "Gift Registry / QR Code E-Wallet",
+        "description": "Tamu bisa langsung memberikan hadiah melalui e-wallet."
+      },
+      {
+        "icon": "🌐",
+        "title": "Custom Domain & Hosting",
+        "description": "Undangan bisa memiliki domain sendiri untuk kesan lebih eksklusif."
+      },
+      {
+        "icon": "📅",
+        "title": "RSVP Online",
+        "description": "Tamu dapat langsung mengkonfirmasi kehadiran mereka secara online."
+      }
+    ]
+  },
+  "how_to_order": {
+    "title": "Cara Pemesanan",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Pilih Template",
+        "description": "Lihat katalog template dan pilih yang sesuai dengan tema pernikahan Anda."
+      },
+      {
+        "step": 2,
+        "title": "Isi Detail Pernikahan",
+        "description": "Masukkan informasi pengantin, tanggal, lokasi, dan elemen tambahan."
+      },
+      {
+        "step": 3,
+        "title": "Konfirmasi & Pembayaran",
+        "description": "Lakukan pembayaran sesuai harga template yang dipilih."
+      },
+      {
+        "step": 4,
+        "title": "Undangan Siap Dibagikan!",
+        "description": "Undangan akan dikirim dalam format digital yang siap dibagikan ke tamu."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Apa Kata Mereka?",
+    "reviews": [
+      {
+        "name": "Dina & Rizky",
+        "review": "Undangannya keren banget! Simple tapi tetap mewah.",
+        "image": "/assets/review1.jpg"
+      },
+      {
+        "name": "Siti & Arman",
+        "review": "Prosesnya cepat dan hasilnya sesuai keinginan!",
+        "image": "/assets/review2.jpg"
+      },
+      {
+        "name": "Fajar & Nia",
+        "review": "Harga terjangkau, desainnya premium. Sangat direkomendasikan!",
+        "image": "/assets/review3.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Paket & Harga",
+    "plans": [
+      {
+        "name": "Basic",
+        "price": "Rp100.000",
+        "features": [
+          "1 Template",
+          "Gratis Hosting 1 Tahun",
+          "Custom Warna & Foto"
+        ]
+      },
+      {
+        "name": "Premium",
+        "price": "Rp200.000",
+        "features": [
+          "3 Template Pilihan",
+          "Custom Domain",
+          "QR Code Gift Registry"
+        ]
+      },
+      {
+        "name": "Custom",
+        "price": "Hubungi Kami",
+        "features": [
+          "Desain Khusus Sesuai Permintaan",
+          "Integrasi Lagu & Video",
+          "Fitur Tambahan Sesuai Keinginan"
+        ]
+      }
+    ]
+  },
+  "faq": {
+    "title": "Pertanyaan yang Sering Diajukan",
+    "questions": [
+      {
+        "question": "Apakah bisa mengganti warna atau font?",
+        "answer": "Ya, warna dan font bisa disesuaikan sesuai keinginan Anda."
+      },
+      {
+        "question": "Berapa lama proses pembuatan undangan?",
+        "answer": "Biasanya hanya membutuhkan 1-2 hari kerja setelah pembayaran."
+      },
+      {
+        "question": "Apakah bisa diakses di semua perangkat?",
+        "answer": "Ya, undangan bisa dibuka di smartphone, tablet, dan komputer."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "cta_text": "Siap Membuat Undangan Pernikahan Digital Anda?",
+    "cta_button": "Hubungi Kami Sekarang",
+    "whatsapp": "https://wa.me/your-number",
+    "email": "support@digimoment.com"
+  }
+}

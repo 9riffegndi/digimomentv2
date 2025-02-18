@@ -27,7 +27,7 @@ const Hero = () => {
         <h1 className="font-inter w-full justify-center -tracking-wider font-medium text-center text-2xl sm:text-4xl items-center">
           {data.hero.title}
         </h1>
-        <span  key={index} className="bg-red-600  slogan-text text-2xl sm:text-4xl">{dataSlogan[index]}</span>
+        <span  key={index} className=" pl-1 pr-1   slogan-text text-2xl sm:text-4xl">{dataSlogan[index]}</span>
       </div>
         <a href={data.hero.cta_link}>
           <PrimaryButton labels={data.hero.cta_text} />

@@ -19,8 +19,8 @@
     "benefits": [
       {
         "icon": "🚀",
-        "title": "Cepat & Mudah",
-        "description": "Buat undangan hanya dalam hitungan menit!",
+        "title": "Cepat & Efisien",
+        "description": "Buat undangan dengan cepat dan efisien.",
         "details": "Tanpa perlu keahlian desain, cukup pilih template, masukkan informasi acara, dan undangan siap dibagikan."
       },
       {
@@ -145,39 +145,7 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Paket & Harga",
-    "plans": [
-      {
-        "name": "Basic",
-        "price": "Rp100.000",
-        "features": [
-          "1 Template",
-          "Gratis Hosting 1 Tahun",
-          "Custom Warna & Foto"
-        ]
-      },
-      {
-        "name": "Premium",
-        "price": "Rp200.000",
-        "features": [
-          "3 Template Pilihan",
-          "Custom Domain",
-          "QR Code Gift Registry"
-        ]
-      },
-      {
-        "name": "Custom",
-        "price": "Hubungi Kami",
-        "features": [
-          "Desain Khusus Sesuai Permintaan",
-          "Integrasi Lagu & Video",
-          "Fitur Tambahan Sesuai Keinginan"
-        ]
-      }
-    ]
-  },
-  "faq": {
+    "faq": {
     "title": "Pertanyaan yang Sering Diajukan",
     "questions": [
       {

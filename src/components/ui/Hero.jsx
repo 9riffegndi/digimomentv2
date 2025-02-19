@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <div
-      className="relative w-full h-80 flex flex-col gap-2 items-center justify-center"
+      className="relative w-full h-96 flex flex-col gap-2 items-center justify-center"
       style={{
         backgroundImage: "url('../../../public/img/gridBg.svg')",
         backgroundSize: "cover",

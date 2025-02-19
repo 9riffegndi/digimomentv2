@@ -20,22 +20,44 @@
       {
         "icon": "🚀",
         "title": "Cepat & Mudah",
-        "description": "Buat undangan hanya dalam hitungan menit!"
+        "description": "Buat undangan hanya dalam hitungan menit!",
+        "details": "Tanpa perlu keahlian desain, cukup pilih template, masukkan informasi acara, dan undangan siap dibagikan."
       },
       {
         "icon": "🎨",
-        "title": "Desain Elegan",
-        "description": "Pilihan template modern sesuai selera."
-      },
-      {
-        "icon": "💳",
-        "title": "Pembayaran Aman",
-        "description": "Tersedia berbagai metode pembayaran, termasuk QRIS."
+        "title": "Desain Eksklusif",
+        "description": "Template modern dan profesional.",
+        "details": "Berbagai pilihan desain yang dapat disesuaikan dengan tema acara Anda, dari minimalis hingga mewah."
       },
       {
         "icon": "📱",
         "title": "Mobile Friendly",
-        "description": "Undangan bisa diakses di semua perangkat."
+        "description": "Tampilan optimal di semua perangkat.",
+        "details": "Dapat diakses dengan mudah melalui smartphone, tablet, dan laptop tanpa perlu aplikasi tambahan."
+      },
+      {
+        "icon": "📩",
+        "title": "Mudah Dibagikan",
+        "description": "Bagikan undangan hanya dengan satu klik.",
+        "details": "Setiap undangan memiliki tautan unik yang bisa langsung dikirim melalui WhatsApp, Instagram, dan media sosial lainnya."
+      },
+      {
+        "icon": "💰",
+        "title": "Harga Terjangkau",
+        "description": "Layanan premium dengan biaya hemat.",
+        "details": "Dapatkan undangan digital berkualitas tinggi dengan harga yang bersahabat untuk berbagai jenis acara."
+      },
+      {
+        "icon": "⚡",
+        "title": "Tanpa Ribet",
+        "description": "Proses pembuatan simpel dan praktis.",
+        "details": "Cukup isi data acara, pilih desain, dan undangan langsung siap digunakan tanpa langkah yang rumit."
+      },
+      {
+        "icon": "🎁",
+        "title": "Fitur Tambahan",
+        "description": "Tersedia berbagai fitur menarik.",
+        "details": "Dari RSVP online, galeri foto, hingga musik latar, tambahkan elemen khusus untuk membuat undangan semakin spesial."
       }
     ]
   },
@@ -71,21 +93,6 @@
   "features": {
     "title": "Fitur Utama Digi Moment",
     "list": [
-      {
-        "icon": "🌎",
-        "title": "Multiple Language Support",
-        "description": "Undangan dapat dibuat dalam berbagai bahasa untuk tamu internasional."
-      },
-      {
-        "icon": "💰",
-        "title": "Gift Registry / QR Code E-Wallet",
-        "description": "Tamu bisa langsung memberikan hadiah melalui e-wallet."
-      },
-      {
-        "icon": "🌐",
-        "title": "Custom Domain & Hosting",
-        "description": "Undangan bisa memiliki domain sendiri untuk kesan lebih eksklusif."
-      },
       {
         "icon": "📅",
         "title": "RSVP Online",

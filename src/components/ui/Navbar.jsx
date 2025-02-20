@@ -20,7 +20,7 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="w-full h-16 flex items-center p-3 justify-between relative bg-white">
+        <nav className="w-full h-16 flex items-center p-3 justify-between relative">
             <Logo className="w-40 h-40" />
             
             <div className="flex items-center gap-4">
@@ -85,7 +85,7 @@ const Navbar = () => {
             <div 
                 className={`
                     fixed top-0 right-0 h-screen w-72 
-                    bg-white shadow-xl 
+                    bg-secondary shadow-xl 
                     transform transition-transform duration-300 ease-out 
                     lg:hidden z-40 p-6 pt-20
                     ${isOpen ? 'translate-x-0' : 'translate-x-full'}

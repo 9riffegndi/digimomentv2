@@ -24,10 +24,10 @@ const itemVariants = {
 
 const cardStyles = [
     {
-        bg: 'bg-gradient-to-br from-[#111111]/90 via-purple-900/20 to-[#111111]/90',
+        bg: 'bg-primary',
         ring: 'ring-1 ring-purple-500/30 ring-inset',
         accent: 'bg-gradient-to-br from-purple-500/20 via-purple-500/5 to-transparent',
-        pattern: "before:content-[''] before:absolute before:inset-0 before:bg-[radial-gradient(circle_at_1px_1px,rgba(128,90,213,0.15)_1px,transparent_0)] before:bg-[size:24px_24px] before:opacity-20",
+        pattern: "before:content-[''] before:absolute before:inset-0 before:bg-[linear-gradient(to_right,rgba(128,90,213,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,90,213,0.1)_1px,transparent_1px)] before:bg-[size:24px_24px] before:opacity-20",
         highlight: 'after:absolute after:w-full after:h-1/2 after:-top-1/2 after:bg-gradient-to-b after:from-purple-500/20 after:to-transparent after:blur-2xl after:opacity-0 group-hover:after:opacity-100 after:transition-opacity after:duration-700',
         text: {
             title: 'text-white',
@@ -35,21 +35,21 @@ const cardStyles = [
         }
     },
     {
-        bg: 'bg-white',
-        ring: 'ring-1 ring-purple-200/50 ring-inset',
-        accent: 'bg-gradient-to-br from-purple-100/40 via-purple-50/20 to-transparent',
-        pattern: "before:content-[''] before:absolute before:inset-0 before:bg-[linear-gradient(rgba(0,0,0,0.05)_1px,transparent_1px),linear-gradient(to_right,rgba(0,0,0,0.05)_1px,transparent_1px)] before:bg-[size:20px_20px] before:opacity-20",
-        highlight: 'after:absolute after:w-full after:h-1/2 after:-top-1/2 after:bg-gradient-to-b after:from-purple-200/30 after:to-transparent after:blur-2xl after:opacity-0 group-hover:after:opacity-100 after:transition-opacity after:duration-700',
+        bg: 'bg-primary',
+        ring: 'ring-1 ring-purple-500/30 ring-inset',
+        accent: 'bg-gradient-to-br from-purple-500/20 via-purple-500/5 to-transparent',
+        pattern: "before:content-[''] before:absolute before:inset-0 before:bg-[linear-gradient(to_right,rgba(128,90,213,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,90,213,0.1)_1px,transparent_1px)] before:bg-[size:24px_24px] before:opacity-20",
+        highlight: 'after:absolute after:w-full after:h-1/2 after:-top-1/2 after:bg-gradient-to-b after:from-purple-500/20 after:to-transparent after:blur-2xl after:opacity-0 group-hover:after:opacity-100 after:transition-opacity after:duration-700',
         text: {
-            title: 'text-gray-900',
-            description: 'text-gray-700'
+            title: 'text-white',
+            description: 'text-gray-200'
         }
     },
     {
-        bg: 'bg-gradient-to-br from-[#111111]/90 via-purple-900/20 to-[#111111]/90',
+        bg: 'bg-primary',
         ring: 'ring-1 ring-purple-500/30 ring-inset',
         accent: 'bg-gradient-to-br from-purple-500/20 via-purple-500/5 to-transparent',
-        pattern: "before:content-[''] before:absolute before:inset-0 before:bg-[conic-gradient(from_90deg_at_1px_1px,rgba(128,90,213,0)_90deg,rgba(128,90,213,0.1)_0)] before:bg-[size:32px_32px] before:opacity-20",
+        pattern: "before:content-[''] before:absolute before:inset-0 before:bg-[linear-gradient(to_right,rgba(128,90,213,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,90,213,0.1)_1px,transparent_1px)] before:bg-[size:24px_24px] before:opacity-20",
         highlight: 'after:absolute after:w-full after:h-1/2 after:-top-1/2 after:bg-gradient-to-b after:from-purple-500/20 after:to-transparent after:blur-2xl after:opacity-0 group-hover:after:opacity-100 after:transition-opacity after:duration-700',
         text: {
             title: 'text-white',
@@ -62,19 +62,19 @@ const getCardSize = (index) => {
     // More dynamic and interesting layout configuration
     switch (index) {
         case 0: // Hero card - full width with horizontal layout
-            return 'lg:col-span-3 md:h-[250px] flex md:flex-row items-center gap-8 backdrop-blur-lg';
+            return 'lg:col-span-3 md:h-[250px]  bg-primary flex md:flex-row items-center gap-8 backdrop-blur-lg';
         case 1: // Tall card left
-            return 'lg:col-span-1 lg:row-span-2 md:h-[500px] flex flex-col justify-center';
+            return 'lg:col-span-1 lg:row-span-2  bg-primary md:h-[500px] flex flex-col justify-center';
         case 2: // Regular card top right
-            return 'lg:col-span-2 md:h-[240px] flex flex-col justify-center';
+            return 'lg:col-span-2 md:h-[240px]  bg-primary flex flex-col justify-center';
         case 3: // Regular card bottom right
-            return 'lg:col-span-2 md:h-[240px] flex flex-col justify-center';
+            return 'lg:col-span-2 md:h-[240px]  bg-primary flex flex-col justify-center';
         case 4: // Wide card bottom
-            return 'lg:col-span-2 md:h-[250px] flex md:flex-row items-center gap-8';
+            return 'lg:col-span-2 md:h-[250px]  bg-primary flex md:flex-row items-center gap-8';
         case 5: // Accent card right
-            return 'lg:col-span-1 lg:row-span-1 md:h-[250px] flex flex-col justify-center';
+            return 'lg:col-span-1 lg:row-span-1 bg-primary md:h-[250px] flex flex-col justify-center';
         default:
-            return 'lg:col-span-1 flex flex-col justify-center';
+            return 'lg:col-span-1 flex flex-col bg-primary justify-center';
     }
 };
 
@@ -117,19 +117,20 @@ const MouseTrackCard = ({ children, className, index }) => {
 };
 
 return (
-    <section className="relative w-full py-24 px-4 md:px-8 bg-[#111111]">
+    <section  className="relative w-full py-24 px-4 md:px-8  rounded-t-badge   before:content-[''] before:absolute before:inset-0 before:bg-[linear-gradient(to_right,rgba(128,90,213,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(128,90,213,0.1)_1px,transparent_1px)] before:bg-[size:24px_24px] before:opacity-20 before:pointer-events-none">
         {/* Title Section with animation */}
         <motion.div 
+        
             className="relative mb-20"
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.1 }}
         >
             <div className="max-w-6xl mx-auto text-center">
-                <h2 className="text-4xl p-2 md:text-5xl font-bold mb-6 bg-gradient-to-r from-white via-purple-100 to-white bg-clip-text text-transparent">
+                <h2 className="text-4xl p-2 md:text-5xl font-bold mb-6 bg-gradient-to-r bg-clip-text text-primary">
                     {data.why_choose_us.title}
                 </h2>
-                <div className="w-32 h-0.5 bg-gradient-to-r from-transparent via-purple-500 to-transparent mx-auto" />
+                <div className="w-32 h-0.5 bg-gradient-to-r from-transparent via-primary to-transparent mx-auto" />
             </div>
         </motion.div>
 
@@ -145,7 +146,7 @@ return (
                 <MouseTrackCard
                     key={index}
                     index={index}
-                    className={`group relative isolate overflow-hidden
+                    className={`group relative  isolate overflow-hidden
                             ${cardStyles[index % 3].bg}
                             ${cardStyles[index % 3].ring}
                             ${cardStyles[index % 3].pattern}
@@ -179,7 +180,7 @@ return (
                     </div>
 
                     {/* Content - Adjusted for layout */}
-                    <div className={`relative z-10 ${index === 0 || index === 3 || index === 5 ? 'flex-grow' : ''}`}>
+                    <div className={` relative z-10 ${index === 0 || index === 3 || index === 5 ? 'flex-grow' : ''}`}>
                         <h3 className={`${index === 0 || index === 5 ? 'text-2xl md:text-3xl' : 'text-xl'} 
                                       font-semibold mb-3
                                       ${cardStyles[index % 3].text.title}`}>

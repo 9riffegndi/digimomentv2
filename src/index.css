@@ -2,12 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Dancing+Script:wght@600&family=Inter:wght@400;700&display=swap');
-
 
 body {
   background-color: #FBFBFB;
@@ -77,7 +72,6 @@ body {
   }
 }
 
-
 @keyframes slideUp {
   0% {
     opacity: 0;
@@ -94,8 +88,6 @@ body {
   font-weight: bold;
   animation: slideUp 0.5s ease-in-out;
 }
-
-
 
 @keyframes blob {
     0% { transform: translate(0px, 0px) scale(1); }
@@ -204,7 +196,6 @@ body {
     animation-delay: 4s;
 }
 
-
 @keyframes grid-snake {
   0% {
     transform: translate(0, 0);
@@ -228,7 +219,6 @@ body {
   }
 }
 
-
 @keyframes float {
   0%, 100% { transform: translateY(0px); }
   50% { transform: translateY(-20px); }
@@ -247,4 +237,140 @@ body {
 .animate-gradient {
   animation: gradient-x 15s ease infinite;
   background-size: 200% auto;
+}
+
+.slogan-container {
+  position: relative;
+  height: 32px;
+  width: 100%;
+  min-width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 640px) {
+  .slogan-container {
+    height: 40px;
+    min-width: 200px;
+  }
+}
+
+@media (min-width: 768px) {
+  .slogan-container {
+    height: 45px;
+    min-width: 230px;
+    width: auto;
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .slogan-container {
+    height: 50px;
+  }
+}
+
+.slogan-background {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.slogan-background::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  animation: slide-bg 3s ease-in-out infinite;
+}
+
+@keyframes slide-bg {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.slogan-border {
+  position: absolute;
+  inset: 0;
+  border-radius: 0.5rem;
+  background: linear-gradient(90deg, 
+    rgba(168, 85, 247, 0.5),
+    rgba(168, 85, 247, 0.2) 25%,
+    rgba(168, 85, 247, 0.2) 75%,
+    rgba(168, 85, 247, 0.5)
+  );
+  animation: pulse-opacity 2s ease-in-out infinite;
+}
+
+@keyframes pulse-opacity {
+  0%, 100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+.slogan-text {
+  position: relative;
+  padding: 0 1rem;
+  transition: all 0.5s ease-out;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+@media (min-width: 640px) {
+  .slogan-text {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .slogan-text {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .slogan-text {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+}
+
+.slogan-shine {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: 0.5rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.slogan-container:hover .slogan-shine {
+  opacity: 1;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(168, 85, 247, 0.2),
+    transparent
+  );
+  transform: translateX(-100%);
+  animation: shine 2s infinite;
+}
+
+@keyframes shine {
+  100% {
+    transform: translateX(100%);
+  }
 }
